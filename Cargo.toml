@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "A pool of reusable SMTP connections for high-throughput emailing."
 license = "MIT"
+repository = "https://github.com/asnimansari/pooledsmtp"
 
 [dependencies]
 base64 = "0.22"
