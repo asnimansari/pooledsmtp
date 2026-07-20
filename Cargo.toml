@@ -1,0 +1,15 @@
+[package]
+name = "pooledsmtp"
+version = "0.1.0"
+edition = "2021"
+description = "A pool of reusable SMTP connections for high-throughput emailing."
+license = "MIT"
+
+[dependencies]
+base64 = "0.22"
+chrono = { version = "0.4", default-features = false, features = ["clock"] }
+rand = "0.8"
+hostname = "0.4"
+mailparse = "0.15"
+lettre = { version = "0.11.22", default-features = false, features = ["smtp-transport", "rustls-tls"] }
+crossbeam-channel = "0.5.16"
