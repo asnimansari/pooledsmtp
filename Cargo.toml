@@ -1,6 +1,6 @@
 [package]
 name = "pooledsmtp"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A pool of reusable SMTP connections for high-throughput emailing."
 license = "MIT"
